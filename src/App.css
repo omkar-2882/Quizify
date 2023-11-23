@@ -1,0 +1,35 @@
+#root {
+  display: flex;
+  flex-direction: column;
+  place-items: center;
+  place-content: center;
+  gap: 2rem;
+  /* flex-wrap: wrap; */
+  /* justify-content: space-evenly; */
+  max-width: 1400px;
+  /* height: 90vh; */
+  /* margin: 0 auto; */
+  padding: 1rem;
+  /* text-align: center; */
+}
+
+.heading {
+  font-size: 3rem;
+  color: cyan;
+  text-align: center;
+}
+
+.homebtn {
+  padding: .8rem 2rem;
+  background-color: cyan;
+  color: #242424;
+  border: 2px solid white;
+  border-radius: 10px;
+  cursor: pointer;
+}
+ 
+.homebtn:hover {
+  background-color: transparent;
+  border: 2px solid cyan;
+  color: cyan;
+}

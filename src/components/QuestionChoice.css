@@ -1,0 +1,56 @@
+.qform {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    justify-content: center;
+    border: 2px solid cyan;
+    border-radius: 10px;
+    padding: 2rem 2rem;
+    background-color: #242424;
+    flex-wrap: wrap;
+}
+
+.qform h1 {
+    align-self: center;
+}
+
+.form-section {
+    display: flex;
+    gap: 1rem;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.form-section p{
+    font-size: 1.2rem;
+}
+
+.form-section select, input {
+    padding: .7rem 1rem;
+    background-color: #242424;
+    border: 2px solid cyan;
+    border-radius: 10px;
+    outline: none;
+    cursor: pointer;
+    width: 100%;
+    font-size: 1rem;
+}
+
+.qform button {
+    width: 10rem;
+    padding: .5rem 0;
+    align-self: center;
+    background-color: cyan;
+    border: 2px solid white;
+    color: #242424;
+    border-radius: 10px;
+    cursor: pointer;
+    margin-top: 2rem;
+    padding:  1rem 2rem;
+    transition: all .1s ease-in-out;
+}
+.qform button:hover {
+    background-color: transparent;
+    border: 2px solid cyan;
+    color: cyan;
+}
