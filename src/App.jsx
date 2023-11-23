@@ -5,7 +5,7 @@ import { Home } from "./components/Home"
 function App() {
   return (
     <>
-      <h1 className='heading'>Welcome to Quizify:</h1>
+      <h1 className='heading'>Welcome to Quizify</h1>
       <Home />
     </>
   )
