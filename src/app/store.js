@@ -8,4 +8,5 @@ export const store = configureStore({
 
     },
     middleware: [thunk],
+    devTools: false,
 })
